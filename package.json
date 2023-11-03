@@ -1,0 +1,30 @@
+{
+  "name": "ts-basics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sample typescript project",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha ./src --exit",
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swipelux/Connect.git"
+  },
+  "author": "Roman Zubrytski",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "mocha": "^9.0.0",
+    "supertest": "^6.1.3",
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "pnpm@8.7.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

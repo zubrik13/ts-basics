@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {
+      "@app": [
+        "./src/*"
+      ]
+    },
+    "baseUrl": ".",
+//    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
